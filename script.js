@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded",function(){
     let messageEl = document.getElementById("message")
     let Tasks = []
     let task = ""
+    let isGreen = false;
 
     AddBtn.addEventListener("click",function(){
         task = TypeBox.value
@@ -51,7 +52,10 @@ document.addEventListener("DOMContentLoaded",function(){
                     
                 })
                 
-                
+                checkButton.addEventListener('click',function(){
+                    isGreen = !isGreen
+                    taskDiv.style.borderBottomColor = isGreen ? 'Green': 'white';
+                })
                 
                 tasksContainer.appendChild(taskDiv);
                 taskDiv.appendChild(taskText)
