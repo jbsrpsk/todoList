@@ -96,3 +96,6 @@ p{
 .checkButton i{
     color: green !important;
 }
+.checkButton i:hover + .taskDiv span{
+    color: green;
+}

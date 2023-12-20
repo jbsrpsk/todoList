@@ -38,6 +38,8 @@ document.addEventListener("DOMContentLoaded",function(){
                 let deleteButton = document.createElement("button") 
                 let checkButton = document.createElement("button") 
                 checkButton.classList.add("checkButton")
+
+
                 let iconElement1 = document.createElement("i")
                 iconElement1.classList.add("fa-solid", "fa-trash-can");
 
@@ -46,7 +48,9 @@ document.addEventListener("DOMContentLoaded",function(){
     
                 deleteButton.addEventListener('click',function(){
                     deleteTask(index)
+                    
                 })
+                
                 
                 
                 tasksContainer.appendChild(taskDiv);
