@@ -1,6 +1,6 @@
 body{
     background-color:#2c2a2a ;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
 
 }
 h1{
@@ -11,7 +11,9 @@ h1{
     margin-top: 30px;
     font-size: 50px;
     text-shadow: grey 1px 0 10px;
+    
 }
+
 p{
     color: white;
     text-align: center;
@@ -19,19 +21,20 @@ p{
 .container{
     height: 70%;
     background-color: #1E1E1E;
-    width: 60%;
+    width: 50%;
     margin: auto;
     overflow: auto;
+    border-radius: 34px;
 }
 .bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    background-color: #D9D9D9;
     border-radius: 30px;
     padding-left: 20px;
-    width: 40%;
-    height: 10%;
+    width: 60%;
+    height: 8%;
     margin: 30px auto 0;
 }
 #typeBox{
@@ -45,19 +48,33 @@ p{
 #addBtn{
     border: none;
     outline: none;
-    background-color: rgb(123, 208, 123);
+    background-color: #4CB843;
     border-radius: 30px;
     color: white;
     font-weight: bold;
-    padding: 19px 20px 19px 20px;
+    width: 25%;
+    height: 100%;
+    cursor: pointer;
 }
 .tasks{
-    width: 45%;
-    margin: auto;
-    background-color: red;
+    width: 60%;
+    margin: 40px auto 0;
 }
-#para{
-    text-align: left;
-    font-size: 20px;
-    margin-top: 40px;
+.taskDiv{
+    margin-bottom: 14px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.taskDiv span{
+    color: white;
+}
+.taskDiv button{
+    background-color: transparent;
+    border: none;
+    cursor:pointer;
+}
+.taskDiv button i {
+    color: red;
+    
 }
