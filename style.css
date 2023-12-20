@@ -37,6 +37,9 @@ p{
     height: 8%;
     margin: 30px auto 0;
 }
+#message{
+    margin-top: 20px;
+}
 #typeBox{
     flex: 1;
     border: none;
@@ -60,14 +63,20 @@ p{
     width: 60%;
     margin: 40px auto 0;
 }
-.taskDiv{
+.taskDiv {
     margin-bottom: 14px;
     padding: 8px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px dotted grey;
+    
 }
+
 .taskDiv span{
     color: white;
+    padding-right: 12px;
 }
 .taskDiv button{
     background-color: transparent;
@@ -75,6 +84,15 @@ p{
     cursor:pointer;
 }
 .taskDiv button i {
-    color: red;
-    
+    color: crimson;
+}
+.taskDiv button i:hover{
+    position: relative;
+    top: 2px;
+}
+.buttonsDiv button {
+    padding-left: 30px;
+}
+.checkButton i{
+    color: green !important;
 }
