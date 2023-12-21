@@ -1,8 +1,10 @@
 body{
     background-color:#2c2a2a ;
     font-family: 'Outfit', sans-serif;
-
 }
+
+
+
 h1{
     font-family: 'Outfit', sans-serif;
     font-weight: bold;
@@ -19,12 +21,13 @@ p{
     text-align: center;
 }
 .container{
-    height: 70%;
+    height: 60%;
     background-color: #1E1E1E;
-    width: 50%;
+    width: 35%;
     margin: auto;
     overflow: auto;
     border-radius: 34px;
+    
 }
 .bar{
     display: flex;
@@ -33,9 +36,11 @@ p{
     background-color: #D9D9D9;
     border-radius: 30px;
     padding-left: 20px;
-    width: 60%;
-    height: 8%;
-    margin: 30px auto 0;
+    width: 25%;
+    height: 6%;
+    margin: 30px auto 30px;
+
+    
 }
 #message{
     margin-top: 20px;
@@ -60,7 +65,7 @@ p{
     cursor: pointer;
 }
 .tasks{
-    width: 60%;
+    width: 80%;
     margin: 40px auto 0;
 }
 .taskDiv {
